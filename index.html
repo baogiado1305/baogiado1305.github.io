@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bao (Billy) Do</title>
+  <meta name="description" content="Bao (Billy) Do (Đỗ Gia Bảo), M.S. student in AI at YunTech, working on diffusion models, retrieval-augmented generation and efficient fine-tuning.">
+  <meta name="author" content="Bao (Billy) Do">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bao (Billy) Do">
+  <meta property="og:description" content="Bao (Billy) Do (Đỗ Gia Bảo), M.S. student in AI at YunTech, working on diffusion models, retrieval-augmented generation and efficient fine-tuning.">
+  <meta property="og:url" content="https://baogiado.github.io/">
+  <meta property="og:image" content="https://baogiado.github.io/assets/img/avatar.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://baogiado.github.io/">
+  <link rel="icon" href="assets/img/logos/Yuntech_logo.png">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/site.css?v=2">
+</head>
+<body data-page="home">
+  <!-- Top menu and footer are filled in by assets/js/site.js from SITE in assets/js/data.js -->
+  <div id="site-header"></div>
+
+  <main>
+    <div class="wrap">
+      <section class="profile">
+        <img class="portrait" src="assets/img/avatar.jpg" alt="Portrait of Bao Do" width="240" height="240">
+
+        <h2 class="sr-only">Education and experience</h2>
+        <!--
+          Newest first. To add a role, copy one <li>, drop the logo into assets/img/logos/,
+          and move class="now" to whichever entries are current.
+          If a logo file is missing, the initials in data-initials are shown instead.
+        -->
+        <ol class="journey">
+          <li class="now">
+            <div class="mark"><img src="assets/img/logos/Yuntech_logo.png" alt="YunTech" data-initials="YT"></div>
+            <div class="org">YunTech</div>
+            <div class="what">M.S. in Artificial Intelligence</div>
+            <div class="when">Expected 2027</div>
+          </li>
+
+          <li>
+            <div class="mark"><img src="assets/img/logos/CSC_logo.png" alt="CSC, HCMUS" data-initials="CSC"></div>
+            <div class="org">CSC - HCMUS, <br>VNU-HCM</div>
+            <div class="what">AI – Data Science Research and Teaching Specialist</div>
+            <div class="when">2024 – 2025</div>
+          </li>
+          
+          <li>
+            <div class="mark"><img src="assets/img/logos/UIT_logo.png" alt="UIT" data-initials="UIT"></div>
+            <div class="org">UIT, <br>VNU-HCM</div>
+            <div class="what">B.S. in Information Technology</div>
+            <div class="when">2024</div>
+          </li>
+
+          <li>
+            <div class="mark"><img src="assets/img/logos/SaigonAI_logo.png" alt="Saigon A.I." data-initials="SAI"></div>
+            <div class="org">Saigon A.I.</div>
+            <div class="what">Data Analyst Intern</div>
+            <div class="when">2023</div>
+          </li>
+
+          <li>
+            <div class="mark"><img src="assets/img/logos/Emage_logo.png" alt="Emage Development" data-initials="ED"></div>
+            <div class="org">Emage Development</div>
+            <div class="what">AI Engineer Intern</div>
+            <div class="when">2022</div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="bio" id="about">
+        <h1 class="title">Bao (Billy) Do</h1>
+        <p>I'm a second-year master's student at the International Graduate School of Artificial Intelligence, National Yunlin University of Science and Technology (YunTech), jointly advised by Prof. <a href="https://iai.yuntech.edu.tw/academic_staff/changkc" target="_blank" rel="noopener">Kuei-Chung Chang</a> and Prof. <a href="https://www.mis.yuntech.edu.tw/?page_id=26336" target="_blank" rel="noopener">Bo Hsiao</a>. Before that, I studied Information Technology in the High Quality Program (Japanese-oriented) at the University of Information Technology, VNU-HCM.</p>
+        <p>I build and evaluate generative AI systems. My thesis uses latent diffusion models to generate industrial defect images, so that inspection models can be trained when real defects are rare. Alongside it, I work on retrieval-augmented generation and parameter-efficient fine-tuning for Vietnamese NLP. I also have a background in information systems research on cybersecurity behavior and social commerce, published at ICIS, PACIS and in <i>Acta Psychologica</i>.</p>
+        <p>I'm open to AI/ML engineering roles starting in 2027. You can <a href="cv.html">view my CV</a>, and <a href="mailto:baogiado1305@gmail.com">email</a> is the quickest way to reach me.</p>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/data.js?v=2"></script>
+  <script src="assets/js/site.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications – Bao (Billy) Do</title>
+  <meta name="description" content="Bao (Billy) Do (Đỗ Gia Bảo), M.S. student in AI at YunTech, working on diffusion models, retrieval-augmented generation and efficient fine-tuning.">
+  <meta name="author" content="Bao (Billy) Do">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Publications – Bao (Billy) Do">
+  <meta property="og:description" content="Bao (Billy) Do (Đỗ Gia Bảo), M.S. student in AI at YunTech, working on diffusion models, retrieval-augmented generation and efficient fine-tuning.">
+  <meta property="og:url" content="https://baogiado.github.io/publications.html">
+  <meta property="og:image" content="https://baogiado.github.io/assets/img/avatar.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://baogiado.github.io/publications.html">
+  <link rel="icon" href="assets/img/logos/Yuntech_logo.png">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/site.css?v=2">
+</head>
+<body data-page="publications">
+  <!-- Top menu and footer are filled in by assets/js/site.js from SITE in assets/js/data.js -->
+  <div id="site-header"></div>
+
+  <main>
+    <div class="wrap page">
+      <h1 class="title">Publications</h1>
+      <p class="lede">Rankings are shown as badges, one color per ranking system.</p>
+      <ul class="legend" aria-label="Badge colors">
+        <li><span class="badge core">CORE</span> conference ranking</li>
+        <li><span class="badge wos">WoS</span> Web of Science index</li>
+        <li><span class="badge sjr">SJR</span> Scimago quartile</li>
+        <li><span class="badge abdc">ABDC</span> ABDC journal list</li>
+        <li><span class="badge scopus">Scopus</span> indexed</li>
+        <li><span class="badge if">IF</span> Journal Impact Factor (JCR)</li>
+        <li><span class="badge citescore">CiteScore</span> Scopus CiteScore</li>
+        <li><span class="badge note">Note</span> paper type or status</li>
+      </ul>
+
+      <div class="tabs" role="tablist" aria-label="Publication type">
+        <button class="tab" role="tab" id="tab-journal" aria-controls="panel-journal" data-hash="journal"><i class="bi bi-journal-text" aria-hidden="true"></i> Journal articles<span class="count"></span></button>
+        <button class="tab" role="tab" id="tab-conference" aria-controls="panel-conference" data-hash="conference"><i class="bi bi-people" aria-hidden="true"></i> Conferences<span class="count"></span></button>
+      </div>
+      <div class="panel" role="tabpanel" id="panel-journal" aria-labelledby="tab-journal" data-type="journal" tabindex="0"></div>
+      <div class="panel" role="tabpanel" id="panel-conference" aria-labelledby="tab-conference" data-type="conference" tabindex="0" hidden></div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/data.js?v=2"></script>
+  <script src="assets/js/site.js?v=2"></script>
+</body>
+</html>

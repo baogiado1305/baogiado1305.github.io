@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects – Bao (Billy) Do</title>
+  <meta name="description" content="Bao (Billy) Do (Đỗ Gia Bảo), M.S. student in AI at YunTech, working on diffusion models, retrieval-augmented generation and efficient fine-tuning.">
+  <meta name="author" content="Bao (Billy) Do">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects – Bao (Billy) Do">
+  <meta property="og:description" content="Bao (Billy) Do (Đỗ Gia Bảo), M.S. student in AI at YunTech, working on diffusion models, retrieval-augmented generation and efficient fine-tuning.">
+  <meta property="og:url" content="https://baogiado.github.io/projects.html">
+  <meta property="og:image" content="https://baogiado.github.io/assets/img/avatar.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://baogiado.github.io/projects.html">
+  <link rel="icon" href="assets/img/logos/Yuntech_logo.png">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/site.css?v=2">
+</head>
+<body data-page="projects">
+  <!-- Top menu and footer are filled in by assets/js/site.js from SITE in assets/js/data.js -->
+  <div id="site-header"></div>
+
+  <main>
+    <div class="wrap page">
+      <h1 class="title">Projects</h1>
+      <ul class="rows">
+        <li class="row">
+          <div class="thumb" aria-hidden="true"><span class="t-venue">Thesis</span><span class="t-kind">In progress</span></div>
+          <div>
+            <p class="p-title">Industrial defect image generation with diffusion models</p>
+            <p class="p-desc">Generates realistic surface-defect images on the MVTec AD benchmark so that inspection models can be trained when real defect samples are scarce. Built on latent diffusion, run on rented cloud GPUs that I set up myself.</p>
+            <div class="p-meta"><span class="status">Master's thesis, 2026–2027</span></div>
+          </div>
+        </li>
+        <li class="row">
+          <div class="thumb" aria-hidden="true"><span class="t-venue">ViQA</span><span class="t-kind">Benchmark</span></div>
+          <div>
+            <p class="p-title">ViQA-LoRABench</p>
+            <p class="p-desc">A controlled comparison of LoRA-family adapters for Vietnamese question answering across four datasets, reporting accuracy together with VRAM, training time and energy cost on consumer GPUs.</p>
+            <div class="p-meta">
+              <span class="status">PACLIC 2026</span>
+              <!-- <span class="p-links"><a href="TODO" target="_blank" rel="noopener">Code</a></span> -->
+            </div>
+          </div>
+        </li>
+        <!--
+          Copy a row above for each new side project. A good row has:
+          a screenshot or GIF as the thumbnail (<div class="thumb has-img"><img src="assets/img/thumbs/..." alt=""></div>),
+          one sentence on the problem, one on what you built and one measured result, plus Code / Demo / Post links.
+        -->
+      </ul>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/data.js?v=2"></script>
+  <script src="assets/js/site.js?v=2"></script>
+</body>
+</html>
